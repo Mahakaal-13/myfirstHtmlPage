@@ -85,14 +85,12 @@ nav .navigation ul li a{
     margin-bottom: -12.5px;
 }
 
-
+/* HOME SECTION */
 
 #home{
     background-color: rgb(57, 175, 96);
     display: flex;
     justify-content: center;
-    /* padding-right: 30vw; */
-    /* padding: 0vw 15vw ; */
 
 }
 
@@ -104,22 +102,24 @@ nav .navigation ul li a{
 .btn{
     display: flex;
     justify-content: center;
-    /* padding-right: 5vw; */
     margin-top: 30px;
 }
 
 .btn :hover{
     color: rgb(5, 36, 36);
     background-color: wheat;
+    transition: 0.3s ease;
 }
 
 .blue{
-    font-size: 16px;
+    font-size: 13px;
+    color: whitesmoke;
     background-color: teal;
     text-decoration: none;
-    padding: .5vw .9vw;
+    padding: .6vw .9vw;
     border-radius: 5.5px;
     margin-bottom: 20px;
+    margin-left: 8vw;
 }
 
 .homehead{
@@ -136,24 +136,37 @@ nav .navigation ul li a{
     color: cornsilk;
 }
 
+/* features */
 
-
-
-
-/* button{
-    border: none;
-    color: seagreen;
-    padding: 10px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.fea{
+    background-color: rgb(17, 133, 32);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
-button{
-    background-color: rgb(74, 209, 47);
-    font-size: 12px;
-    border-radius: 4px;
-    margin: -12px;
-    margin-bottom: -25px;
-} */
 
+.sec-1{
+    color: wheat;
+    padding: 20px 50px;
+    width: 50%;
+    font-size: 16px;
+    justify-content: space-between;
+    text-decoration: none; 
+}
+
+.options{
+    margin-top: 15px;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+.optn{
+    padding-top: 7px;
+}
+
+.i1{
+    display: flex;
+    flex-direction: row;
+    
+}
