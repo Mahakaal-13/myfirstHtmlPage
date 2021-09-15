@@ -137,112 +137,16 @@ nav .navigation ul li a{
 }
 
 /* features */
-
-.fea{
-    background-color: rgb(17, 133, 32);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    cursor: pointer;
-    
-    box-shadow: 2px 2px 10px rgba(1, 27, 5, 0.15);
-    
+.features{
+   display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2rem ;
+    background-color: rgb(57, 180, 88);
+    color: white;
 }
-
-.sec-1{
-    color: wheat;
-    padding: 20px 0px;
-    width: 50%;
-    font-size: 16px;
-    justify-content: space-between;
-    text-decoration: none; 
-    margin-left: 150px;
-}
-
-.options{
-    margin-top: 15px;
-    margin-left: 16px;
-    justify-content: space-between;
-
-}
-
-.optn{
-    padding-top: 10px;
-}
-
-.i1{
-    display: flex;
-    flex-direction: row;
-    
-}
-.icon{
-    /* margin-left: 10px; */
-    margin-top: -5px;
-}
-
-.sec-2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   color: wheat;
-   /* margin-right: 50px; */
-    width: 65%;
-    font-size: 16px;
-}
-.para3{
-    margin-top: 1px;
-    margin-left: 16px;
-    justify-content: space-between;
-   padding-bottom:70px;
-   width: 70%;
-   letter-spacing: .1px;
-
-}
-
-.i2{
-    display: flex;
-    flex-direction: row;
-    margin-top: 17px;
-   margin-left: 16px;
+ .item {
    
-}
-
-.our-team{
-    padding-bottom: 20px;
-    /* margin-left: 10px; */
-}
-.fontfa{
-    font-size: 20px;
-}
-.sec-3{
-    color: wheat;
-    padding: 20px 0px;
-    width: 70%;
-    font-size: 16px;
-    justify-content: space-between;
-    text-decoration: none; 
-    padding-right: 200px;
-}
-.para1{
-    padding-right: 50px;
-        padding-top: 10px;
-        max-width: 20rem;
-}
-.para2{
-    padding-right: 50px;
-        padding-top: 10px;
-        max-width: 20rem;
-}
-.i3{
-    display: flex;
-    flex-direction: row;
-}
-.fa{
-    color: bisque;
-    font-size: 20px;
-    margin-right: 5px;
 }
 
 
@@ -277,9 +181,8 @@ nav .navigation ul li a{
 
 
 .our-c{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
     font-size: 34px;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -293,17 +196,12 @@ nav .navigation ul li a{
     
 }
 .clientdiv{
-    margin-top: 40px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-around; */
+   display: grid;
+   grid-template-columns: 60px 60px 60px;
 }
 .clients{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-around;
-    align-items: center;
+   /* height: 20px;
+   width: 20px; */
+   margin: 3px;
     
 }
