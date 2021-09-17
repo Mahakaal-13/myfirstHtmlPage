@@ -257,6 +257,7 @@ padding-left: 5px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(3,71,37);
+    color: wheat;
 }
 .footeritem{
     padding: 15px 85px;
